@@ -1,4 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true }
+  modules: [
+    '@nuxtjs/tailwindcss',
+    'nuxt-lodash',
+    'nuxt-icon',
+  ],
+  devtools: { enabled: true },
+  tailwindcss: {
+    cssPath: '~/assets/css/main.css',
+    configPath: 'tailwind.config.js',
+  },
 })

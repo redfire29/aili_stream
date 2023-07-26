@@ -6,11 +6,20 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "yarn generate && node ./deploy/ghpages.js"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.0",
-    "nuxt": "^3.6.5"
+    "nuxt": "^3.6.5",
+    "nuxt-icon": "^0.4.2",
+    "nuxt-lodash": "^2.5.0"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "path": "^0.12.7",
+    "vite-plugin-pug": "^0.3.2"
   }
 }
