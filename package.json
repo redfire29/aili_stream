@@ -7,7 +7,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "yarn generate && node ./deploy/ghpages.js"
+    "deploy": "yarn generate && yarn nrd && node ./deploy/ghpages.js",
+    "nrd": "nuxt-rd"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -19,6 +20,7 @@
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
+    "nuxt-relative-dir": "^0.0.5",
     "path": "^0.12.7",
     "vite-plugin-pug": "^0.3.2"
   }

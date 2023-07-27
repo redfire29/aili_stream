@@ -4354,7 +4354,7 @@ minimatch@~3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@^1.2.6, minimist@^1.2.7:
+minimist@^1.2.0, minimist@^1.2.6, minimist@^1.2.7:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
@@ -4787,6 +4787,14 @@ nuxt-lodash@^2.5.0:
     "@nuxt/kit" "^3.6.0"
     "@types/lodash-es" "^4.17.7"
     lodash-es "^4.17.21"
+
+nuxt-relative-dir@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/nuxt-relative-dir/-/nuxt-relative-dir-0.0.5.tgz#12873105454c7708e01713a2599fa1ccd9c9c200"
+  integrity sha512-QYZjezZlO26O/RYfSagZ05KnMBsSMtTlM5q5b+s6kZHmfQ5J+ati7oPegI5uHgGnAxzswxRTW8/rVQPow81dDA==
+  dependencies:
+    debug "^3.1.0"
+    minimist "^1.2.0"
 
 nuxt@^3.6.5:
   version "3.6.5"

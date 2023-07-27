@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-lodash',
-    'nuxt-icon',
   ],
   devtools: { enabled: true },
   tailwindcss: {

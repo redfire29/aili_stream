@@ -34,7 +34,6 @@ const streamList = useNuxtApp().$streamList;
 const nowList = ref(streamList);
 
 const searchStream = () => {
-  console.log('searchStream');
   const findVideo = useFilter(streamList, (video) => {
     if (useGet(video, 'videoTitle').match(new RegExp(searchWord.value, 'i'))) {
       return true;
@@ -42,6 +41,8 @@ const searchStream = () => {
     return false;
   });
   nowList.value = findVideo;
-  console.log(findVideo);
 }
+onMounted(() => {
+  history.replaceState({}, null, "aili_stream/");
+});
 </script>
