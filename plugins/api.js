@@ -3,6 +3,76 @@ export default defineNuxtPlugin((NuxtApp) => {
     provide: {
       streamList: [
         {
+          "videoTitle": "【艾黎】每周行程表（近期都突發）",
+          "videoImg": "https://i.ytimg.com/vi/0ToOcGxA84Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXXtejdltF0Pfpv_XTSiLe0-QZmA",
+          "videoHref": "https://www.youtube.com/watch?v=0ToOcGxA84Q"
+        },
+        {
+          "videoTitle": "【艾黎】再見：Ｄ要一直開開心心的唷，你們都是我的寶物，歌回＋雜談【8000訂衝刺】",
+          "videoImg": "https://i.ytimg.com/vi/Gs7eJkqDwDc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCBMq7OtxqwHSYfMFBjDG4NE8pzpA",
+          "videoHref": "https://www.youtube.com/watch?v=Gs7eJkqDwDc"
+        },
+        {
+          "videoTitle": "【艾黎】雜談！想到什麼聊什麼 【8000訂衝刺】",
+          "videoImg": "https://i.ytimg.com/vi/qgL5rz9OawI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBwLOwtzQS3_Jg95-pcXOmIpU5SQ",
+          "videoHref": "https://www.youtube.com/watch?v=qgL5rz9OawI"
+        },
+        {
+          "videoTitle": "【艾黎】雜談！今天去考試，還喝酒了 【8000訂衝刺】",
+          "videoImg": "https://i.ytimg.com/vi/md2vxBBZqPY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCkT-kgBHGF9Yqzxerxe-K-evCqsg",
+          "videoHref": "https://www.youtube.com/watch?v=md2vxBBZqPY"
+        },
+        {
+          "videoTitle": "【艾黎】奶子就是正義？台V乳搖二選一 FT. @chouchouvt 　【8000訂衝刺】",
+          "videoImg": "https://i.ytimg.com/vi/El4tcY55fZk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDBVRwF5CcMHtlQlrmWtxIxgyyrBQ",
+          "videoHref": "https://www.youtube.com/watch?v=El4tcY55fZk"
+        },
+        {
+          "videoTitle": "【艾黎】最後一殺，是正是邪！？ FT.很多人【Dread Hunger】",
+          "videoImg": "https://i.ytimg.com/vi/yiMABTWel5Y/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmmH8UJovg--tMBLTZbXGYjtBjhA",
+          "videoHref": "https://www.youtube.com/watch?v=yiMABTWel5Y"
+        },
+        {
+          "videoTitle": "【艾黎】8000訂衝刺！全觀眾簽名台耐久？還有參加限定圖面！",
+          "videoImg": "https://i.ytimg.com/vi/dZmk06BfouU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCNomZTck8RDuRt_01nA63_RMu5ew",
+          "videoHref": "https://www.youtube.com/watch?v=dZmk06BfouU&t=10252s"
+        },
+        {
+          "videoTitle": "【艾黎】8000訂衝刺！全觀眾簽名台耐久？還有參加限定圖面！",
+          "videoImg": "https://i.ytimg.com/vi/1yjHpcvqbLE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5zvYkxZh5xGlLD3Q6MSb3yVd7Zg",
+          "videoHref": "https://www.youtube.com/watch?v=1yjHpcvqbLE"
+        },
+        {
+          "videoTitle": "【艾黎】8000訂衝刺＋深夜迴 走向結局【遊戲雜談】",
+          "videoImg": "https://i.ytimg.com/vi/IzAE1NhUMeE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBVlDWOasz4L126oxM4daXmPwYZTg",
+          "videoHref": "https://www.youtube.com/watch?v=IzAE1NhUMeE"
+        },
+        {
+          "videoTitle": "【艾黎】會限抽獎台　抽完獎看看時間再看要不要開雜談台～",
+          "videoImg": "https://i.ytimg.com/vi/esCp9BwAju4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA233hQhiZAjUTABrDyOvzNBoyUdQ",
+          "videoHref": "https://www.youtube.com/watch?v=esCp9BwAju4"
+        },
+        {
+          "videoTitle": "【艾黎】8000訂衝刺＋深夜迴 掰掰YUI 我們還在你身邊【遊戲雜談】",
+          "videoImg": "https://i.ytimg.com/vi/ZZygvibqDI4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDp9R2pCpnIJt5R2f4Y2D1qXpkzLg",
+          "videoHref": "https://www.youtube.com/watch?v=ZZygvibqDI4"
+        },
+        {
+          "videoTitle": "【艾黎】8000訂衝刺＋深夜迴 喉嚨怪怪的就邊玩邊聊YO【遊戲雜談】",
+          "videoImg": "https://i.ytimg.com/vi/ryZZ-TAid_8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXDVHJbkwCyYWKItB0Pl8bUnDogA",
+          "videoHref": "https://www.youtube.com/watch?v=ryZZ-TAid_8"
+        },
+        {
+          "videoTitle": "【艾黎】8000訂衝刺＋深夜迴 拖稿的遊戲玩得完嗎【遊戲雜談】",
+          "videoImg": "https://i.ytimg.com/vi/2oQTjEAsPEo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCs0Y8e8xor1RZVRtmjcuXY_wq7ig",
+          "videoHref": "https://www.youtube.com/watch?v=2oQTjEAsPEo"
+        },
+        {
+          "videoTitle": "【艾黎】8000訂衝刺＋健身環大冒險，原來聊天會喘啊！【遊戲雜談】",
+          "videoImg": "https://i.ytimg.com/vi/AiMUlclbf4A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhCvLghwerXNocoCZI3cLXyITtlw",
+          "videoHref": "https://www.youtube.com/watch?v=AiMUlclbf4A"
+        },
+        {
           "videoTitle": "【艾黎】【重大告知】",
           "videoImg": "https://i.ytimg.com/vi/6CTf00XrWhY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCNCNhOkUsb565GgpLsTBsF2SWGyQ",
           "videoHref": "https://www.youtube.com/watch?v=6CTf00XrWhY&t=1s"
